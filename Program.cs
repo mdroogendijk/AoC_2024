@@ -5,7 +5,7 @@
         public static void Main()
         {
             // Day selector
-            int day = 10;
+            int day = 11;
 
             // Solutions to run for selected day
             var resultSet = day switch
@@ -20,6 +20,7 @@
                 8 => DayEight.Program.Main(),
                 9 => DayNine.Program.Main(),
                 10 => DayTen.Program.Main(),
+                11 => DayEleven.Program.Main(),
                 _ => []
             };
 
