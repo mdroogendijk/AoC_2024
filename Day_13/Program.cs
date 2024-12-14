@@ -18,7 +18,7 @@
 
             if (inputPartTwo)
             {
-                long answerPartTwo = PartTwo_backup.GetAnswer("Day_13/Input/input.txt");
+                long answerPartTwo = PartTwo.GetAnswer("Day_13/Input/input.txt");
                 resultSet.Add($"The answer for the input file in Part 2 = {answerPartTwo}");
             }
 

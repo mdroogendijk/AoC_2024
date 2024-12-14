@@ -1,6 +1,6 @@
 namespace AdventOfCode.DayThirteen
 {
-    public class PartTwo_backup
+    public class PartTwo
     {
         public class ClawMachine
         {
