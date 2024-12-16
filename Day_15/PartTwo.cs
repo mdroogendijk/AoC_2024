@@ -181,11 +181,6 @@ namespace AdventOfCode.DayFifteen
 
                 } while (currentLocs.Count > 0);
 
-                if (map.Where(x => x.value == '@').First().position == (31,23))
-                {
-                    var debugtwo = true;
-                }
-
                 while (allValid && newValues.TryDequeue(out Position? newPosition))
                 {
                     map[map.FindIndex(x =>
